@@ -24,7 +24,7 @@ public class Actividad01 {
         // 
         //Busqueda e Impresion de elementos de indice impares
         for (int i = 0; i < numeros.length; i++) {
-            if (i != 0 && i % 2 != 0) {
+            if (i % 2 != 0) {
                 System.out.println("El contenido de la posicion " + i + " es " + numeros[i]);
             }
         }
